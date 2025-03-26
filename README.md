@@ -5,19 +5,7 @@
 
 <div align="center">
   <a href="https://github.com/QMR-by/AquaRegia">
-    <img src="public\img\Logo.png" alt="AquaRegia" width="150" height="130">
-  </a>
-  <h2 align="center">TamaFlights: A Flight Booking Website</h3>
-</div>
-
-<a name="readme-top"></a>
-
-<br/>
-<br/>
-
-<div align="center">
-  <a href="https://github.com/QMR-by/AquaRegia">
-    <img src="public\img\Logo.png" alt="Aqua Regia" width="150" height="130">
+    <img src="public\img\Logo.png" alt="Aqua Regia" width="350" height="130">
   </a>
   <h2 align="center">Aqua Regia: Whispers of the Stream</h2>
 </div>
