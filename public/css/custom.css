@@ -1,0 +1,209 @@
+/* General*/
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jacques Francois', serif;
+}
+
+/* Generic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #DDE9D2; /* Light Green background */
+    color: #333;
+    line-height: 1.6;
+    padding-top: 130px; /* Adjust this value to match the height of your fixed header */
+}
+
+
+
+/* Header Styles */
+.navbar-custom {
+    background-color: #003366; /* Change this to your desired header background color */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff; /* Change this to your desired header text color */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #00aaff; /* Change this to your desired header text hover color */
+}
+
+/* Footer Styles */
+.darkblue {
+    background-color: #664700; /* Change this to your desired footer background color */
+    color: #fff; /* Change this to your desired footer text color */
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+}
+
+.darkblue .cyan {
+    color: #d4b400; /* Change this to your desired footer heading color */
+}
+
+.darkblue p {
+    color: #fff; /* Change this to your desired footer paragraph text color */
+}
+
+.darkblue p i {
+    color: #00bcd4; /* Change this to your desired footer icon color */
+}
+
+
+.licorice {
+    background: linear-gradient(135deg, #664b00, #cc9600);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer p, footer a {
+    color: #124188;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #00aaff;
+}
+
+/* Common Header Styles */
+.navbar {
+    background: linear-gradient(135deg, #666e5e, #eace6b);
+    padding: 10px 20px;
+    color: #F3F3E0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .logo img {
+    width: 150px;
+    margin-right: 15px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #00509e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-section {
+        padding: 50px 20px;
+    }
+
+    .flight-section form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* Generic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Generic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Universal Wrapper */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center content */
+}
+
+/* Universal Wrapper for Sections */
+.section-wrapper {
+    max-width: 1200px; /* Mimics .container */
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px dashed #ff6600; /* DEBUG: Orange border */
+    text-align: center; /* Center content */
+}
+
+/* Debug Borders */
+.debug-orange {
+    border: 2px dashed #ff6600;
+}
+
+.debug-blue {
+    border: 2px solid #00ccff;
+}
+
+/* Common Section Styling */
+.section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center content */
+}
+}

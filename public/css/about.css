@@ -1,0 +1,45 @@
+/* General Resets */
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jacques Francois', serif;
+    color: #315337;
+}
+
+body {
+    background-color: #DDE9D2; /* Light blue background */
+    color: #333;
+    line-height: 1.6;
+    padding-top: 60px; /* Adjust this value to match the height of your fixed header */
+}
+
+/* About Page */
+h1 {
+    color: #3f5b45;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* About Container */
+.aboutcontainer {
+    background: #9BA791;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.aboutcontainer img {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.aboutcontainer p {
+    text-align: justify;
+    margin-bottom: 20px;
+}

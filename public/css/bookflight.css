@@ -1,0 +1,59 @@
+/* General Styles for Passenger Details Page */
+body {
+    background-color: #e6f2ff; /* Light blue background */
+    color: #333;
+    line-height: 1.6;
+    padding-top: 150px; /* Adjust this value to match the height of your fixed header */
+}
+
+/* White-bordered container */
+.bookflightcontainer {
+    background: #ffffff;
+    border: 5px solid #f8f8f8; /* White border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+
+.bookformcontainer {
+    background: #ffffff;
+    border: 5px solid #f8f8f8; /* White border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+    color: #003366;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #003366;
+    color: #fff;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00509e;
+}

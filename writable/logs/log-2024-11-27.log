@@ -1,0 +1,653 @@
+CRITICAL - 2024-11-27 05:09:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\Passenger.php(34): view('profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Passenger->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Passenger))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 05:22:01 --> ErrorException: Undefined variable $placeofbirth
+[Method: GET, Route: profile]
+in APPPATH\Views\profilepage.php on line 12.
+ 1 APPPATH\Views\profilepage.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $placeofbirth', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\profilepage.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\profilepage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profilepage', [], true)
+ 5 APPPATH\Controllers\Passenger.php(34): view('profilepage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Passenger->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Passenger))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 05:23:20 --> ErrorException: Undefined array key "placeofbirth"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Passenger.php on line 29.
+ 1 APPPATH\Controllers\Passenger.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "placeofbirth"', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Controllers\\Passenger.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Passenger->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Passenger))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 05:23:21 --> ErrorException: Undefined array key "placeofbirth"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Passenger.php on line 29.
+ 1 APPPATH\Controllers\Passenger.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "placeofbirth"', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Controllers\\Passenger.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Passenger->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Passenger))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 05:23:53 --> ErrorException: Undefined array key "placeofbirth"
+[Method: GET, Route: profile]
+in APPPATH\Controllers\Passenger.php on line 29.
+ 1 APPPATH\Controllers\Passenger.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "placeofbirth"', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Controllers\\Passenger.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Passenger->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Passenger))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))CRITICAL - 2024-11-27 16:13:33 --> ErrorException: Undefined variable $firstname
+[Method: POST, Route: bookFlightAirport]
+in APPPATH\Views\bookflightairportpage.php on line 6.
+ 1 APPPATH\Views\bookflightairportpage.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstname', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookflightairportpage', [], true)
+ 5 APPPATH\Controllers\Booking.php(54): view('bookflightairportpage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:13:40 --> ErrorException: Undefined property: CodeIgniter\View\View::$firstname
+[Method: POST, Route: bookFlightAirport]
+in APPPATH\Views\bookflightairportpage.php on line 6.
+ 1 APPPATH\Views\bookflightairportpage.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$firstname', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookflightairportpage', [], true)
+ 5 APPPATH\Controllers\Booking.php(54): view('bookflightairportpage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:13:40 --> ErrorException: Undefined property: CodeIgniter\View\View::$firstname
+[Method: POST, Route: bookFlightAirport]
+in APPPATH\Views\bookflightairportpage.php on line 6.
+ 1 APPPATH\Views\bookflightairportpage.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$firstname', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookflightairportpage', [], true)
+ 5 APPPATH\Controllers\Booking.php(54): view('bookflightairportpage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:13:41 --> ErrorException: Undefined property: CodeIgniter\View\View::$firstname
+[Method: POST, Route: bookFlightAirport]
+in APPPATH\Views\bookflightairportpage.php on line 6.
+ 1 APPPATH\Views\bookflightairportpage.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$firstname', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookflightairportpage', [], true)
+ 5 APPPATH\Controllers\Booking.php(54): view('bookflightairportpage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:15:07 --> ErrorException: Undefined variable $firstname
+[Method: POST, Route: bookFlightAirport]
+in APPPATH\Views\bookflightairportpage.php on line 6.
+ 1 APPPATH\Views\bookflightairportpage.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstname', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookflightairportpage', [], true)
+ 5 APPPATH\Controllers\Booking.php(56): view('bookflightairportpage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:15:42 --> ErrorException: Undefined variable $firstname
+[Method: POST, Route: bookFlightAirport]
+in APPPATH\Views\bookflightairportpage.php on line 6.
+ 1 APPPATH\Views\bookflightairportpage.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstname', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookflightairportpage', [], true)
+ 5 APPPATH\Controllers\Booking.php(56): view('bookflightairportpage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:15:56 --> ErrorException: Undefined variable $firstName
+[Method: POST, Route: bookFlightAirport]
+in APPPATH\Views\bookflightairportpage.php on line 6.
+ 1 APPPATH\Views\bookflightairportpage.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookflightairportpage', [], true)
+ 5 APPPATH\Controllers\Booking.php(56): view('bookflightairportpage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:18:55 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\TX32-24-TamaFlights\app\Controllers\Booking.php on line 54
+[Method: POST, Route: bookFlightAirport]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Booking.php(54): view('bookflightairportpage', '123')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:19:06 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\TX32-24-TamaFlights\app\Controllers\Booking.php on line 54
+[Method: POST, Route: bookFlightAirport]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Booking.php(54): view('bookflightairportpage', '123')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:21:06 --> ErrorException: Undefined property: CodeIgniter\View\View::$firstName
+[Method: POST, Route: bookFlightAirport]
+in APPPATH\Views\bookflightairportpage.php on line 6.
+ 1 APPPATH\Views\bookflightairportpage.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$firstName', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\bookflightairportpage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookflightairportpage', [], true)
+ 5 APPPATH\Controllers\Booking.php(55): view('bookflightairportpage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightAirport()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:27:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "bookflightseatpage.php"
+[Method: POST, Route: bookFlightSeats]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bookflightseatpage.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('bookflightseatpage', [], true)
+ 3 APPPATH\Controllers\Booking.php(85): view('bookflightseatpage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightSeats()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:39:31 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: reviewCosts]
+in APPPATH\Views\reviewcostspage.php on line 44.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reviewCostspage', [], true)
+ 3 APPPATH\Controllers\Booking.php(111): view('reviewCostspage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->reviewCosts()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:40:00 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: reviewCosts]
+in APPPATH\Views\reviewcostspage.php on line 43.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reviewCostspage', [], true)
+ 3 APPPATH\Controllers\Booking.php(111): view('reviewCostspage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->reviewCosts()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 16:40:37 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: reviewCosts]
+in APPPATH\Views\reviewcostspage.php on line 43.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reviewCostspage', [], true)
+ 3 APPPATH\Controllers\Booking.php(111): view('reviewCostspage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->reviewCosts()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:01:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/.php"
+[Method: POST, Route: booking/payment]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/', [], true)
+ 3 APPPATH\Controllers\Booking.php(206): view('/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:07:24 --> ErrorException: Undefined variable $firstname
+[Method: POST, Route: confirmDetails]
+in APPPATH\Views\confirmdetailspage.php on line 21.
+ 1 APPPATH\Views\confirmdetailspage.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstname', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\confirmdetailspage.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Views\\confirmdetailspage.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('confirmDetailspage', [], true)
+ 5 APPPATH\Controllers\Booking.php(116): view('confirmDetailspage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->confirmDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:15:12 --> ErrorException: Undefined variable $firstName
+[Method: POST, Route: bookFlightFlyDetails]
+in APPPATH\Controllers\Booking.php on line 74.
+ 1 APPPATH\Controllers\Booking.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $firstName', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Controllers\\Booking.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->bookFlightFlyDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-27 17:21:01 --> mysqli_sql_exception: Column 'origin' cannot be null in C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ai...', 0)
+#1 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ai...')
+#2 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ai...')
+#3 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ai...', Array, false)
+#4 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TX32-24-TamaFlights\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TX32-24-TamaFlights\app\Controllers\Booking.php(133): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+#9 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\TX32-24-TamaFlights\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-27 17:21:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'origin' cannot be null
+[Method: POST, Route: booking/payment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `airport` (`origin`) VALUES (:origin:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Booking.php(133): CodeIgniter\Model->insert([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:21:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'origin' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `airport` (`origin`) VALUES (NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `airport` (`origin`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `airport` (`origin`) VALUES (:origin:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Booking.php(133): CodeIgniter\Model->insert([...], true)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:21:01 --> [Caused by] mysqli_sql_exception: Column 'origin' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `airport` (`origin`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `airport` (`origin`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `airport` (`origin`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `airport` (`origin`) VALUES (:origin:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Booking.php(133): CodeIgniter\Model->insert([...], true)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-27 17:25:29 --> mysqli_sql_exception: Column 'class' cannot be null in C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TX32-24-TamaFlights\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TX32-24-TamaFlights\app\Controllers\Booking.php(151): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+#9 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\TX32-24-TamaFlights\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-27 17:25:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'class' cannot be null
+[Method: POST, Route: booking/payment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `seat` (`flight_id`, `class`) VALUES (:flight_id:, :class:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Booking.php(151): CodeIgniter\Model->insert([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:25:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'class' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `seat` (`flight_id`, `class`) VALUES (5, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `seat` (`flight_id`, `class`) VALUES (5, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `seat` (`flight_id`, `class`) VALUES (:flight_id:, :class:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Booking.php(151): CodeIgniter\Model->insert([...], true)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:25:29 --> [Caused by] mysqli_sql_exception: Column 'class' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `seat` (`flight_id`, `class`) VALUES (5, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `seat` (`flight_id`, `class`) VALUES (5, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `seat` (`flight_id`, `class`) VALUES (5, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `seat` (`flight_id`, `class`) VALUES (:flight_id:, :class:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Booking.php(151): CodeIgniter\Model->insert([...], true)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-27 17:29:34 --> mysqli_sql_exception: Column 'class' cannot be null in C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TX32-24-TamaFlights\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TX32-24-TamaFlights\app\Controllers\Booking.php(154): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+#9 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\TX32-24-TamaFlights\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-27 17:29:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'class' cannot be null
+[Method: POST, Route: booking/payment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `seat` (`flight_id`, `class`) VALUES (:flight_id:, :class:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Booking.php(154): CodeIgniter\Model->insert([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:29:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'class' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `seat` (`flight_id`, `class`) VALUES (6, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `seat` (`flight_id`, `class`) VALUES (6, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `seat` (`flight_id`, `class`) VALUES (:flight_id:, :class:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Booking.php(154): CodeIgniter\Model->insert([...], true)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:29:34 --> [Caused by] mysqli_sql_exception: Column 'class' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `seat` (`flight_id`, `class`) VALUES (6, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `seat` (`flight_id`, `class`) VALUES (6, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `seat` (`flight_id`, `class`) VALUES (6, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `seat` (`flight_id`, `class`) VALUES (:flight_id:, :class:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Booking.php(154): CodeIgniter\Model->insert([...], true)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-27 17:51:20 --> mysqli_sql_exception: Unknown column 'arrivaldate' in 'field list' in C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fl...', 0)
+#1 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fl...')
+#2 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fl...')
+#3 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fl...', Array, false)
+#4 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TX32-24-TamaFlights\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TX32-24-TamaFlights\app\Controllers\Booking.php(138): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+#9 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\TX32-24-TamaFlights\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-27 17:51:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'arrivaldate' in 'field list'
+[Method: POST, Route: booking/payment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaldate`, `arrivaltime`) VALUES (:airport_id:, :flightnumber:, :departuredate:, :departuretime:, :arrivaldate:, :arrivaltime:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Booking.php(138): CodeIgniter\Model->insert([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:51:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'arrivaldate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaldate`, `arrivaltime`) VALUES (8, \'20248\', NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaldate`, `arrivaltime`) VALUES (8, \'20248\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaldate`, `arrivaltime`) VALUES (:airport_id:, :flightnumber:, :departuredate:, :departuretime:, :arrivaldate:, :arrivaltime:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Booking.php(138): CodeIgniter\Model->insert([...], true)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:51:20 --> [Caused by] mysqli_sql_exception: Unknown column 'arrivaldate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaldate`, `arrivaltime`) VALUES (8, \'20248\', NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaldate`, `arrivaltime`) VALUES (8, \'20248\', NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaldate`, `arrivaltime`) VALUES (8, \'20248\', NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaldate`, `arrivaltime`) VALUES (:airport_id:, :flightnumber:, :departuredate:, :departuretime:, :arrivaldate:, :arrivaltime:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Booking.php(138): CodeIgniter\Model->insert([...], true)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-27 17:52:17 --> mysqli_sql_exception: Column 'departuredate' cannot be null in C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fl...', 0)
+#1 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fl...')
+#2 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fl...')
+#3 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fl...', Array, false)
+#4 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TX32-24-TamaFlights\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TX32-24-TamaFlights\app\Controllers\Booking.php(138): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+#9 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\TX32-24-TamaFlights\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-27 17:52:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'departuredate' cannot be null
+[Method: POST, Route: booking/payment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (:airport_id:, :flightnumber:, :departuredate:, :departuretime:, :arrivaltime:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Booking.php(138): CodeIgniter\Model->insert([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:52:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'departuredate' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (9, \'20249\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (9, \'20249\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (:airport_id:, :flightnumber:, :departuredate:, :departuretime:, :arrivaltime:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Booking.php(138): CodeIgniter\Model->insert([...], true)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:52:17 --> [Caused by] mysqli_sql_exception: Column 'departuredate' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (9, \'20249\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (9, \'20249\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (9, \'20249\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (:airport_id:, :flightnumber:, :departuredate:, :departuretime:, :arrivaltime:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Booking.php(138): CodeIgniter\Model->insert([...], true)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-27 17:52:52 --> mysqli_sql_exception: Column 'departuredate' cannot be null in C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fl...', 0)
+#1 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fl...')
+#2 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fl...')
+#3 C:\xampp\htdocs\TX32-24-TamaFlights\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fl...', Array, false)
+#4 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\TX32-24-TamaFlights\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\TX32-24-TamaFlights\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\TX32-24-TamaFlights\app\Controllers\Booking.php(138): CodeIgniter\Model->insert(Array, true)
+#8 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+#9 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 C:\xampp\htdocs\TX32-24-TamaFlights\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\TX32-24-TamaFlights\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\TX32-24-TamaFlights\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-27 17:52:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'departuredate' cannot be null
+[Method: POST, Route: booking/payment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (:airport_id:, :flightnumber:, :departuredate:, :departuretime:, :arrivaltime:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Booking.php(138): CodeIgniter\Model->insert([...], true)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:52:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'departuredate' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (10, \'202410\', NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (10, \'202410\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (:airport_id:, :flightnumber:, :departuredate:, :departuretime:, :arrivaltime:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Booking.php(138): CodeIgniter\Model->insert([...], true)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 17:52:52 --> [Caused by] mysqli_sql_exception: Column 'departuredate' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (10, \'202410\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (10, \'202410\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (10, \'202410\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `flight` (`airport_id`, `flightnumber`, `departuredate`, `departuretime`, `arrivaltime`) VALUES (:airport_id:, :flightnumber:, :departuredate:, :departuretime:, :arrivaltime:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Booking.php(138): CodeIgniter\Model->insert([...], true)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 19:11:38 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: login/account]
+in APPPATH\Controllers\Passenger.php on line 116.
+ 1 APPPATH\Controllers\Passenger.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\TX32-24-TamaFlights\\app\\Controllers\\Passenger.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Passenger->loginacc()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Passenger))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
